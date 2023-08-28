@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Favorite Five-V</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+   <!--=====================================
+                 Start header area
+    ========================================-->
+    <section class="header-area">
+      <div class="container">
+        <div class="banner-content">
+          <h1>my favorite five-V</h1>
+          <p>However, soon after declining an offer from Schalke 04, claiming that a yearly salary of €1.5 million would not be enough, he eventually</p>
+        </div>
+      </div>
+    </section>
+
+     <!--=====================================
+                 End header area
+      ========================================-->
+
+       <!--=====================================
+                 start player area
+      ========================================-->
+      <section class="player-main-area">
+        <div class="container">
+          <div class="player-grid">
+            <div class="player-left">
+              <!-- single item -->
+              <div class="player-single-item">
+                <img src="images/p1.png" alt="img">
+                <h2>Neymar Jr</h2>
+                <h6>
+                  <span>36 Goals</span>
+                  <span>120 Assist</span>
+                </h6>
+                <button id="selectBotton" onclick="addToCart(this)">SELECT</button>
+              </div>
+              <!-- single item -->
+              <div class="player-single-item">
+                <img src="images/p6.png" alt="img">
+                <h2>Lionel Messi</h2>
+                <h6>
+                  <span>36 Goals</span>
+                  <span>120 Assist</span>
+                </h6>
+                <button id="selectBotton" onclick="addToCart(this)">SELECT</button>
+              </div>
+              <!-- single item -->
+              <div class="player-single-item">
+                <img src="images/p3.png" alt="img">
+                <h2>Kylian Mbappé</h2>
+                <h6>
+                  <span>36 Goals</span>
+                  <span>120 Assist</span>
+                </h6>
+                <button id="selectBotton" onclick="addToCart(this)">SELECT</button>
+              </div>
+              <!-- single item -->
+              <div class="player-single-item">
+                <img src="images/p2.png" alt="img">
+                <h2>Vítor Machado</h2>
+                <h6>
+                  <span>36 Goals</span>
+                  <span>120 Assist</span>
+                </h6>
+                <button id="selectBotton" onclick="addToCart(this)">SELECT</button>
+              </div>
+              <!-- single item -->
+              <div class="player-single-item">
+                <img src="images/p4.png" alt="img">
+                <h2>Sergio Ramos</h2>
+                <h6>
+                  <span>36 Goals</span>
+                  <span>120 Assist</span>
+                </h6>
+                <button id="selectBotton" onclick="addToCart(this)">SELECT</button>
+              </div>
+              <!-- single item -->
+              <div class="player-single-item">
+                <img src="images/p5.png" alt="img">
+                <h2>Renato Sanches</h2>
+                <h6>
+                  <span>36 Goals</span>
+                  <span>120 Assist</span>
+                </h6>
+                <button id="selectBotton" onclick="addToCart(this)">SELECT</button>
+              </div>
+            </div>
+            <div class="player-right">
+              <div class="selected-player">
+                <h4>Selected - <span id="playerAchived"></span></h4>
+                <div class="player-list">
+                  <ul id="playerList">
+                    <!-- <li><span>1</span> <small>Lionel Messi</small></li>
+                    <li><span>2</span> <small>Lionel Messi</small></li>
+                    <li><span>3</span> <small>Lionel Messi</small></li>
+                    <li><span>4</span> <small>Lionel Messi</small></li>
+                    <li><span>5</span> <small>Lionel Messi</small></li> -->
+                  </ul>
+                </div>
+              </div>
+              <div class="selected-player">
+                <h4>Budget</h4>
+                <div class="perInput-main">
+                    <div class="per-input">
+                      <span>Per Player</span>
+                      <input id="perPlayer" type="text">
+                    </div>
+                    <button id="calCulate">Calculate</button>
+                    <h5>
+                      <span>Player Expenses</span>
+                      <span>$<small id="tottalExpenses">0</small></span>
+                    </h5>
+                    <div class="per-input">
+                      <span>Manager</span>
+                      <input id="managerCost" type="text">
+                    </div>
+                    <div class="per-input">
+                      <span>Coach</span>
+                      <input id="CoachCost" type="text">
+                    </div>
+                    <button id="calCulateTotal">Calculate Total</button>
+                    <h5>
+                      <span>Total</span>
+                      <span>$<small id="Total">0</small></span>
+                    </h5>
+                </div>  
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p>Copyright @ 2022 All Rights Reserved.</p>
+      </footer>
+
+       <!--=====================================
+                 End player area
+      ========================================-->
+
+  <script src="js/main.js"></script>
+</body>
+</html>
